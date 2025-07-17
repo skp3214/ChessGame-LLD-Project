@@ -20,7 +20,6 @@ The ChessGame-LLD-Project is a Java-based implementation of a chess game system 
 - **Factory Pattern**: Creates chess pieces dynamically using `PieceFactory`.
 - **Mediator Pattern**: Manages communication between players via `Match` as a mediator.
 - **Singleton Pattern**: Ensures a single `GameManager` instance for managing matches.
-- **Bridge Pattern**: Separates piece behavior (abstraction) from movement logic (implementation) through composition.
 
 ## Project Structure
 - **enums**: Defines `Color`, `PieceType`, and `GameStatus` for type safety.
